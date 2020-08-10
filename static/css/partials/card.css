@@ -1,0 +1,24 @@
+/* Card */
+
+.card-image {
+    transition: 0.4s;
+}
+
+.card-image:hover {
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.card .card-description {
+    padding: 0 8px;
+}
+
+.card-meta-blogpost {
+    color: #333;
+    font-size: 14px;
+    padding: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-meta-blogpost a {
+    color: #333;
+}
