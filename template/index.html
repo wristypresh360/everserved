@@ -7,32 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>EVERSERVED</title>
 
-    <link rel="shortcut icon" href="img/1592164196891.png" />
+    <link rel="shortcut icon" href="../static/img/1592164196891.png" />
     <!--  Bootstrap css file  -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
 
     <!--  font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="../static/css/all.min.css">
 
 
     <!--  Magnific Popup css file  -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="../static/vendor/Magnific-Popup/dist/magnific-popup.css">
 
 
     <!--  Owl-carousel css file  -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../static/vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/vendor/owl-carousel/css/owl.theme.default.min.css">
 
 
     <!--  custom css file  -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../static/css/style.css">
 
     <!--  Responsive css file  -->
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="../static/css/responsive.css">
 
     <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../static/css/estilos.css">
 
 </head>
 
@@ -44,7 +44,7 @@
     <header class="header_area">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="Index.html"><img src="./img/logo.png" alt="logo" width="50"
+                <a class="navbar-brand" href="../templates/index.html"><img src="../static/img/logo.png" alt="logo" width="50"
                         height="30"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,14 +54,14 @@
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{ url_for ('index') }}"> Home <span class="sr-only">(current)</span></a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="service.html">services</a>
+                            <a class="nav-link" href="{{ url_for ('services') }}"> Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">contact Us</a>
+                            <a class="nav-link" href="{{ url_for ('contact') }}"> Contact Us</a>
                         </li>
 
                     </ul>
@@ -75,10 +75,10 @@
     <!--  ======================= Start Main Area ================================ -->
     <div class="slider">
         <ul>
-            <li><img src="./img/portfolio/DJ-Disk-Jockey-DJs.jpg" alt=""></li>
-            <li><img src="./img/portfolio/ballon.jpg" alt=""></li>
-            <li><img src="./img/portfolio/cinema.jpg" alt=""></li>
-            <li><img src="./img/portfolio/cake4.jpg" alt=""></li>
+            <li><img src="../static/img/portfolio/DJ-Disk-Jockey-DJs.jpg" alt=""></li>
+            <li><img src="../static/img/portfolio/ballon.jpg" alt=""></li>
+            <li><img src="../static/img/portfolio/cinema.jpg" alt=""></li>
+            <li><img src="../static/img/portfolio/cake4.jpg" alt=""></li>
         </ul>
     </div>
 
@@ -102,7 +102,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <img src="./img/portfolio/about-us.png" alt="About us" class="img-fluid">
+                            <img src="../static/img/portfolio/about-us.png" alt="About us" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
@@ -120,8 +120,7 @@
                                 desired taste.
                                 Our commitment to our Customers is our primary focus. Our joy lies in ensuring that your
                                 event holds without any hitches.
-
-                            </p>
+                           </p>
                         </div>
                     </div>
                 </div>
@@ -134,10 +133,6 @@
                     <div class="col-12">
                         <div class="about-title">
                             <h1 class="text-uppercase title-h1">Our Team</h1>
-                            <p class="para">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, deleniti
-                                recusandae. Esse incidunt rem repellendus ab voluptates maxime? Nemo, numquam!
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -147,7 +142,7 @@
                 <div class="owl-carousel owl-theme">
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
+                            <img src="../static/img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Blessing Okere</h4>
@@ -158,7 +153,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
+                            <img src="../static/img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Egbujor Christopher</h4>
@@ -168,7 +163,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
+                            <img src="../static/img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Precious Okere</h4>
@@ -178,7 +173,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
+                            <img src="../static/img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Mac Hill</h4>
@@ -188,7 +183,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
+                            <img src="../static/img/testimonials/t1.jpeg" alt="img1" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Blessing Okere</h4>
@@ -198,7 +193,7 @@
                     </div>
                     <div class="client row">
                         <div class="col-lg-4 col-md-12 client-img">
-                            <img src="./img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
+                            <img src="../static/img/testimonials/t2.jpeg" alt="img2" class="img-fluid">
                         </div>
                         <div class="col-lg-8 col-md-12 about-client">
                             <h4 class="text-uppercase">Mac Hill</h4>
@@ -214,113 +209,16 @@
 
         <!--  ======================= Project Area =============================  -->
 
-        <section class="project-area">
-            <div class="container">
-                <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Our-Service</h1>
-                </div>
 
-                <div class="button-group">
-                    <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                    <button type="button" data-filter=".popular">Decoration</button>
-                    <button type="button" data-filter=".latest">Mc</button>
-                    <button type="button" data-filter=".following">Photography</button>
-                    <button type="button" data-filter=".upcoming">Catering Service</button>
-                </div>
+        <p style="text-align:center"> <a href="{{ url_for ('services') }}" class="btn btn-primary" title=""> View our Services </a></p>
 
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                        <div class="our-service">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/set2.jpg">
-                                    <img src="./img/set2.jpg" alt="portfolio-1" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/set1.jpg">
-                                    <img src="./img/set1.jpg" alt="portfolio-2" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/decoration.jpg">
-                                    <img src="./img/decoration.jpg" alt="portfolio-3" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/food1.png">
-                                    <img src="./img/food1.png" alt="portfolio-4" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/food2.jpg">
-                                    <img src="./img/food2.png" alt="portfolio-5" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
-                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p9.jpg">
-                                    <img src="./img/portfolio/p9.jpg" alt="portfolio-7" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a class="test-popup-link" href="./img/photo.jpg">
-                                    <img src="./img/photo.jpg" alt="portfolio-8" class="img-fluid">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
+        <p style="text-align:center"> <a href="{{ url_for ('contact') }}" class="btn btn-primary" title=""> Get in touch </a> </p>
 
         <!--  ======================= End Project Area =============================  -->
 
         <!--  ========================== Subscribe Us Area ============================  -->
+        <br>
+
         <section class="subscribe-us-area">
             <div class="container subscribe">
                 <div class="row">
@@ -345,9 +243,7 @@
             </div>
         </section>
         <!--  ========================== End Subscribe Us Area ============================  -->
-
-
-    </main>
+        </main>
     <!--  ======================= End Main Area ================================ -->
     <!--  =======================Footer Area ================================ -->
 
@@ -355,57 +251,59 @@
         <footer>
 
             <div class="logo text-center py-4">
-                <a href="#"><img src="./img/logo.png" alt="logo" width="50" height="40" everserved></a>
+                <a href="#"><img src="../static/img/logo.png" alt="logo" width="50" height="40" everserved></a>
             </div>
             <div class="follow text-center py-4"></div>
             <h3>Follow us on</h3>
-            <div id="social-media-footer">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <p>© 2017 Everserved | All Rights Reserved</p>
-            </div>
-            </p>
-            </div>
-            </div>
-            </div>
-        </footer>
+        <div class="follow text-center py-4"></div>
+        <h3>Follow us on</h3>
+        <div id="social-media-footer">
+            <ul>
+                <li>
+                   <a href="www.facebook.com"> 
+                        <i class="fab fa-facebook"> </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="www.youtube.com">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="www.instagram.com">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>© 2020 Everserved | All Rights Reserved</p>
+        </div>
+        </p>
+        </div>
+        </div>
+        </div>
+    </footer>
         <!--  ======================= End Footer Area ================================ -->
 
 
         <!--  Jquery js file  -->
-        <script src="./js/jquery.3.4.1.js"></script>
+        <script src="../static/js/jquery.3.4.1.js"></script>
 
         <!--  Bootstrap js file  -->
-        <script src="./js/bootstrap.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
 
         <!--  isotope js library  -->
-        <script src="./vendor/isotope/isotope.min.js"></script>
+        <script src="../static/vendor/isotope/isotope.min.js"></script>
 
         <!--  Magnific popup script file  -->
-        <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+        <script src="../static/vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
 
         <!--  Owl-carousel js file  -->
-        <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="../static/vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
         <!--  custom js file  -->
-        <script src="./js/main.js"></script>
-        <script src="./js/animsition.js"></script>
+        <script src="../static/js/main.js"></script>
+        <script src="../static/js/animsition.js"></script>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
